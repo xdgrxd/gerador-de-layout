@@ -1,0 +1,54 @@
+.main {
+    margin: 7rem auto 4rem auto;
+    background-color: #fff;
+    text-align: center;
+    max-width: 65rem;
+    padding: 5.5rem 8rem;
+    border-radius: 3rem;
+    box-shadow: 0 11px 34px 0 #00000033;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 3.4rem;
+}
+
+select {
+    display: block;
+    margin: 3rem auto 0 auto;
+    font-size: 1.75rem;
+    width: 30rem;
+    padding: .95rem .85rem;
+    border-radius: 1rem;
+}
+
+button {
+    margin-top: 3rem;
+    border: none;
+    background-color: #f36430;
+    color: #FFF;
+    font-size: 1.8rem;
+    padding: 1rem 1.6rem;
+    border-radius: .75rem;
+    cursor: pointer;
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+button:hover {
+    background-color: hsl(16, 89%, 60%);
+}
+
+.customRoundBtn {
+    background-color: #f36430;
+    padding: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 2.5rem auto 0 auto;
+    cursor: pointer;
+}
+
+.customRoundBtn:hover {
+    background-color: hsl(16, 89%, 62%);
+}
